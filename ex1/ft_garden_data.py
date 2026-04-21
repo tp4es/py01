@@ -8,7 +8,8 @@ class Plants():
 
     def show(self):
         print(
-            f"{self.name.capitalize()}: {str(self.height)}cm, {str(self.age)} days old.")
+            f"{self.name.capitalize()}: {
+                str(self.height)}cm, {str(self.age)} days old.")
 
 
 def ft_garden_data():
